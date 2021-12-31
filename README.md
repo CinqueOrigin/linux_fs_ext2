@@ -1,2 +1,5 @@
-# linux_fs_ext2
-c++实现的linux文件系统模拟
+使用命令：
+		gcc -c init.c
+		gcc -c main.c
+		gcc -o fs main.o init.o
+		./fs
